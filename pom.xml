@@ -13,7 +13,7 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>18</version>
+            <version>23.0.1</version>
         </dependency>
     </dependencies>
     <build>
@@ -36,7 +36,7 @@
                         <!-- Usage: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>org.example.App</mainClass>
+                            <mainClass>it.polimi.App</mainClass>
                         </configuration>
                     </execution>
                 </executions>
