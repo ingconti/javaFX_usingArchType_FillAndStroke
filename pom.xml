@@ -10,11 +10,13 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
     <dependencies>
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
             <version>23.0.1</version>
         </dependency>
+
     </dependencies>
     <build>
         <plugins>
